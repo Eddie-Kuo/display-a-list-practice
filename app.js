@@ -33,7 +33,7 @@ for (let cookie of cookies) {
 
 // List 2
 
-import { lifterProfiles } from './lifterProfiles-array.js';
+import { lifterProfiles } from './lifterProfiles-data.js';
 import { renderLifterProfiles } from './render-lifterProfiles.js';
 
 const lifterProfilesEl = document.getElementById('array-two');
@@ -44,3 +44,19 @@ for (let lifterProfile of lifterProfiles) {
 
     lifterProfilesEl.append(lifterPro);
 }
+
+// List 3
+
+import { states } from './states-data.js';
+import { renderStates } from './render-states.js';
+
+const stateProfilesEl = document.getElementById('array-three');
+
+for (let state of states) {
+
+    const statePro = renderStates(state);
+
+    stateProfilesEl.append(statePro);
+    
+}
+
