@@ -60,3 +60,51 @@ for (let state of states) {
     
 }
 
+// List 4
+
+import { videoGames } from './videogames-data.js';
+import { renderVideoGame } from './render-videogame.js'; 
+
+const videoGamesEl = document.getElementById('array-four');
+
+for (let videoGame of videoGames) {
+
+    const videoGameList = renderVideoGame(videoGame);
+
+    videoGamesEl.append(videoGameList);
+
+    
+}
+
+// export const videoGames = [
+//     {
+//         title: 'Super Smash Bros',
+//         system: 'Nintendo Switch',
+//         genre: [
+//             'action',
+//             'strategy',
+//             'fantasy'
+//         ],
+//         multiplayer: 'yes'
+//     },
+//     {
+//         title: 'Pokemon',
+//         system: 'GameBoy',
+//         genre: [
+//             'adventure',
+//             'strategy',
+//             'RPG'
+//         ],
+//         multiplayer: 'no'
+//     },
+//     {
+//         title: 'Mario Party',
+//         system: 'Nintendo Switch',
+//         genre: [
+//             'family',
+//             'strategy',
+//             'fantasy'
+//         ],
+//         multiplayer: 'no'
+//     }
+// ];
