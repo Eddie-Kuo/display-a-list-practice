@@ -95,4 +95,41 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
-  }
+    }
+
+    #array-one, #array-two {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .cookie-type, .lifter-type {
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.39);
+    padding: 10px;
+    border-radius: 5px;
+    }
+
+    .lifter-profile {
+    display: flex;
+    width: 250px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.39);
+    padding: 10px;
+    border-radius: 5px;
+    }
+
+    .states {
+        display: flex;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.39);
+        text-align: center;
+        background-color: lightslategray;
+    }
+
+.video-game {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(27, 130, 232);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.39);
+    text-align: center;
+}
